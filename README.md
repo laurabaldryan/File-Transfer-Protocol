@@ -57,7 +57,7 @@ New client connected
 
 Received command: LIST
 
-Received command: UPLOAD example.txt
+Received command: UPLOAD test1.txt
 
 Received command: QUIT
 
