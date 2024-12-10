@@ -73,6 +73,7 @@ Use the following commands to interact with the server:
 3. DOWNLOAD <file> - Downloads the specified file from the server.
 4. REMOVE <file>  - Removes the specified file from the server.
 5. QUIT           - Disconnects from the server.
+
 =====================================================
 
 Connected to the server. Type 'QUIT' to disconnect.
