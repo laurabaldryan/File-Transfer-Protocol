@@ -40,10 +40,49 @@ java FTPClient
 
 ## Example:
 Enter command: UPLOAD example.txt
+
 Enter command: LIST
+
 Enter command: DOWNLOAD example.txt
+
 Enter command: REMOVE example.txt
+
 Enter command: QUIT
+
+## Example Usage
+### Server Console:
+Server is listening on port 12345
+
+New client connected
+
+Received command: LIST
+
+Received command: UPLOAD example.txt
+
+Received command: QUIT
+
+Client disconnected.
+
+### Client Console:
+=====================================================
+FTP PROTOCOL INSTRUCTIONS:
+Use the following commands to interact with the server:
+1. LIST           - Lists all hosted files on the server.
+2. UPLOAD <file>  - Uploads the specified file to the server.
+3. DOWNLOAD <file> - Downloads the specified file from the server.
+4. REMOVE <file>  - Removes the specified file from the server.
+5. QUIT           - Disconnects from the server.
+=====================================================
+Connected to the server. Type 'QUIT' to disconnect.
+Enter command: LIST
+example.txt
+Enter command: UPLOAD testfile.txt
+File testfile.txt uploaded successfully.
+Enter command: QUIT
+Disconnected from server.
+
+
+
 
 
 
