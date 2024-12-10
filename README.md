@@ -74,11 +74,17 @@ Use the following commands to interact with the server:
 5. QUIT           - Disconnects from the server.
 =====================================================
 Connected to the server. Type 'QUIT' to disconnect.
+
 Enter command: LIST
+
 example.txt
+
 Enter command: UPLOAD testfile.txt
+
 File testfile.txt uploaded successfully.
+
 Enter command: QUIT
+
 Disconnected from server.
 
 
