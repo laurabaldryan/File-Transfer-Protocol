@@ -2,7 +2,7 @@
 File transfer protocol
 This project implements a File Transfer Protocol (FTP) using Java. The protocol allows a client to connect to a server and perform file operations such as listing files, uploading files, downloading files, and removing files. The client remains connected until the QUIT command is issued.
 
-Features
+## Features
 
 LIST: List all files stored on the server.
 
@@ -14,7 +14,7 @@ REMOVE <filename>: Remove a file from the server.
 
 QUIT: Disconnect the client from the server.
 
-Project Structure 
+## Project Structure 
 
 FTPProject/
 
