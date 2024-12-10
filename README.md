@@ -66,6 +66,7 @@ Client disconnected.
 ### Client Console:
 =====================================================
 FTP PROTOCOL INSTRUCTIONS:
+
 Use the following commands to interact with the server:
 1. LIST           - Lists all hosted files on the server.
 2. UPLOAD <file>  - Uploads the specified file to the server.
@@ -73,6 +74,7 @@ Use the following commands to interact with the server:
 4. REMOVE <file>  - Removes the specified file from the server.
 5. QUIT           - Disconnects from the server.
 =====================================================
+
 Connected to the server. Type 'QUIT' to disconnect.
 
 Enter command: LIST
