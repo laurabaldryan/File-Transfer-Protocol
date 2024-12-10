@@ -10,9 +10,14 @@ QUIT: Disconnect the client from the server.
 Project Structure 
 
 FTPProject/
+
 │
+
 ├── FTPServer.java        # Server-side implementation
+
 ├── FTPClient.java         # Client-side implementation
+
 ├── server_files/             # Directory for downloading 
+
 └── test*.txt                     # Files for uploading 
 
