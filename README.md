@@ -81,9 +81,9 @@ Enter command: LIST
 
 example.txt
 
-Enter command: UPLOAD testfile.txt
+Enter command: UPLOAD test1.txt
 
-File testfile.txt uploaded successfully.
+File test1.txt uploaded successfully.
 
 Enter command: QUIT
 
