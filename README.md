@@ -28,3 +28,26 @@ FTPProject/
 
 └── test*.txt                     # Files for uploading 
 
+
+## Steps to Run:
+1. Compile the Code
+javac FTPServer.java FTPClient.java
+2. Start the Server
+Run the server first:
+java FTPServer
+3.Run the client to connect to the server:
+java FTPClient
+
+## Example:
+Enter command: UPLOAD example.txt
+Enter command: LIST
+Enter command: DOWNLOAD example.txt
+Enter command: REMOVE example.txt
+Enter command: QUIT
+
+
+
+
+
+
+
